@@ -1,0 +1,20 @@
+programa
+{
+	// Exercicio 8) Escreva um programa que leia a velocidade de um carro.
+  
+	funcao inicio()
+	{
+		inteiro vel
+
+		escreva("qual a sua velocidade? ")
+		leia(vel)
+
+		se(vel > 80) {
+			escreva("você levou uma multa de: ", (vel - 80) * 7, " reais")
+		}
+		
+		senao{
+			escreva("você não levou multa! Parabéns.")
+		}
+	}
+}
