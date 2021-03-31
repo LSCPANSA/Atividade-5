@@ -1,0 +1,21 @@
+programa
+{
+	// Exercicio 7) Faça um Programa que leia um ano qualquer e informe se ele é bissexto.
+	
+	funcao inicio()
+	{
+		inteiro ano
+
+		 escreva("digite um ano: ")
+		 leia(ano)
+
+		 se(ano % 4 == 0 ou (ano % 4 == 0 e ano % 100 !=0)){
+			escreva("é bissexto")
+		}
+
+		senao {
+			escreva ("não é bissexto")
+		}
+		 
+	}
+}
