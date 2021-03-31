@@ -1,0 +1,36 @@
+programa
+{
+	// Exercicio 3) COVID
+	
+	funcao inicio()
+	{
+		cadeia coriza
+		cadeia tosse
+		cadeia febre
+		cadeia dorGarganta
+		cadeia dificuldadeRespirar
+
+		escreva("você está com coriza? ")
+		leia(coriza)
+		escreva("você está com tosse? ")
+		leia(tosse)
+		escreva("você está com febre? ")
+		leia(febre)
+		escreva("você está com dor de garganta? ")
+		leia(dorGarganta)
+		escreva("você está com dificuldade para respirar? ")
+		leia(dificuldadeRespirar)
+
+		se(coriza == "sim" e tosse == "sim" e febre == "sim" e dorGarganta == "sim" e dificuldadeRespirar == "sim") {
+			escreva("você tem suspeita grave de covid")
+		}
+		
+		senao se(coriza == "sim" ou tosse == "sim" ou febre == "sim" ou dorGarganta == "sim" ou dificuldadeRespirar == "sim") {
+			escreva("você tem suspeita leve de covid")
+		}
+		
+		se(coriza == "nao" e tosse == "nao" e febre == "nao" e dorGarganta == "nao" e dificuldadeRespirar == "nao") {
+			escreva("você nao tem suspeita de covid")
+		}
+	}
+}
