@@ -1,0 +1,22 @@
+
+programa
+{
+	// Atividade 2) Faça um programa que peça uma temperatura e informe na tela se o valor é positivo ou negativo
+	
+	funcao inicio()
+	{
+		inteiro tem1
+
+		escreva("informe a temperatura: ")
+		leia(tem1)
+
+		se(tem1 >= 0) {
+			escreva("o valor da temperatura é positivo")
+		
+		}
+
+		senao{
+			escreva("o valor da temperatura é negativo")
+	}
+	}
+}	
